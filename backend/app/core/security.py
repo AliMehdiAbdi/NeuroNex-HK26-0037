@@ -1,8 +1,10 @@
 """Security, Firebase token verification, and Role-Based Access Control (RBAC)."""
 
+from datetime import datetime, timedelta, timezone
 from typing import Any, Callable, Dict, List, Optional
 from fastapi import Depends, HTTPException, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
+import jwt
 from sqlalchemy.orm import Session
 
 from backend.app.config import settings
@@ -10,6 +12,16 @@ from backend.app.core.database import get_db
 from backend.app.models.user import Role, User, UserRole
 
 http_bearer = HTTPBearer(auto_error=False)
+
+
+def create_access_token(data: dict, expires_delta: Optional[timedelta] = None) -> str:
+    """Create local JWT access token for offline dev sessions."""
+    to_encode = data.copy()
+    expire = datetime.now(timezone.utc) + (
+        expires_delta or timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)
+    )
+    to_encode.update({"exp": expire})
+    return jwt.encode(to_encode, settings.SECRET_KEY, algorithm=settings.ALGORITHM)
 
 
 def verify_firebase_token(token: str) -> Dict[str, Any]:

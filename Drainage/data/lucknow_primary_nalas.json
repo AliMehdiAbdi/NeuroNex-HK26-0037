@@ -1,0 +1,300 @@
+{
+  "description": "26 Primary Storm Water Nalas of Lucknow based on Lucknow Municipal Corporation (LMC) & UP Jal Nigam Drainage Master Plan",
+  "city": "Lucknow",
+  "state": "Uttar Pradesh",
+  "river_basin": "Gomti River Basin",
+  "total_nalas": 26,
+  "sources": [
+    "Lucknow Municipal Corporation (LMC) Annual Drainage & Desiltation Report",
+    "UP Jal Nigam Gomti Action Plan (GAP) Phase II Nala Inventory",
+    "Lucknow Master Plan 2031 Stormwater Network Classification"
+  ],
+  "nalas": [
+    {
+      "id": "NALA-01",
+      "name": "Haidar Canal Nala",
+      "bank": "Cis-Gomti",
+      "catchment": "Charbagh, Mawaiya, Talkatora, Cantonment, Gomti Barrage",
+      "outfall_location": "Downstream of Gomti Barrage (26.8521N, 80.9712E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 14.2,
+      "design_capacity_m3s": 55.0,
+      "type": "Major Regulated Canal / Storm Trunk"
+    },
+    {
+      "id": "NALA-02",
+      "name": "Kukrail Nala / River",
+      "bank": "Trans-Gomti",
+      "catchment": "Indira Nagar, Kalyanpur, Vikas Nagar, Mahanagar",
+      "outfall_location": "Gomti River near Nishatganj Bridge (26.8682N, 80.9571E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 28.5,
+      "design_capacity_m3s": 65.0,
+      "type": "Natural River Tributary / Primary Trunk Drain"
+    },
+    {
+      "id": "NALA-03",
+      "name": "Ghasyari Mandi Nala",
+      "bank": "Cis-Gomti",
+      "catchment": "Hazratganj, Qaiserbagh, Ghasyari Mandi",
+      "outfall_location": "Near Hanuman Setu Bridge (26.8615N, 80.9388E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 4.1,
+      "design_capacity_m3s": 12.0,
+      "type": "Masonry Covered Trunk Nala"
+    },
+    {
+      "id": "NALA-04",
+      "name": "Wazirganj Nala",
+      "bank": "Cis-Gomti",
+      "catchment": "Wazirganj, Aminabad, Golaganj",
+      "outfall_location": "Upstream of Daliganj Bridge (26.8665N, 80.9285E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 3.8,
+      "design_capacity_m3s": 10.5,
+      "type": "Urban Brick / Concrete Nala"
+    },
+    {
+      "id": "NALA-05",
+      "name": "Pata Nala",
+      "bank": "Cis-Gomti",
+      "catchment": "Chowk, Victoria Street, Thakurganj, Husainabad",
+      "outfall_location": "Near Hardinge (Pacca) Bridge / Tile Wali Masjid (26.8712N, 80.9150E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 5.2,
+      "design_capacity_m3s": 14.0,
+      "type": "Historic Deep Masonry Nala"
+    },
+    {
+      "id": "NALA-06",
+      "name": "Nagaria Nala",
+      "bank": "Trans-Gomti",
+      "catchment": "Triveni Nagar, Aliganj Sector A & B, Keshav Nagar",
+      "outfall_location": "Trans-Gomti Bank near Gau Ghat (26.8790N, 80.9021E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 6.8,
+      "design_capacity_m3s": 16.5,
+      "type": "Open Masonry Trunk Drain"
+    },
+    {
+      "id": "NALA-07",
+      "name": "Sarkata Nala",
+      "bank": "Cis-Gomti",
+      "catchment": "Saadatganj, Kashmiri Mohalla, Niwazganj",
+      "outfall_location": "Upstream of Hardinge Bridge (26.8745N, 80.9082E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 4.5,
+      "design_capacity_m3s": 9.5,
+      "type": "Covered Storm Sewer"
+    },
+    {
+      "id": "NALA-08",
+      "name": "Daliganj Nala",
+      "bank": "Trans-Gomti",
+      "catchment": "Daliganj Market, Sitapur Road Railway Yard",
+      "outfall_location": "Daliganj Bridge North Embankment (26.8680N, 80.9320E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 3.2,
+      "design_capacity_m3s": 8.0,
+      "type": "Open Concrete Nala"
+    },
+    {
+      "id": "NALA-09",
+      "name": "Nishatganj Nala",
+      "bank": "Trans-Gomti",
+      "catchment": "Nishatganj Market, Paper Mill Colony, Badshahnagar",
+      "outfall_location": "Near Nishatganj Bridge (26.8630N, 80.9540E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 3.6,
+      "design_capacity_m3s": 11.0,
+      "type": "Covered RCC Box Culvert"
+    },
+    {
+      "id": "NALA-10",
+      "name": "Jopling Road Nala",
+      "bank": "Cis-Gomti",
+      "catchment": "Jopling Road, Butler Palace Colony, Shahnajaf",
+      "outfall_location": "Gomti Left Bank near Sikandar Bagh (26.8580N, 80.9510E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 2.9,
+      "design_capacity_m3s": 7.5,
+      "type": "RCC Underground Storm Trunk"
+    },
+    {
+      "id": "NALA-11",
+      "name": "La-Place Nala",
+      "bank": "Cis-Gomti",
+      "catchment": "Hazratganj North, Shahnajaf Road, La-Place",
+      "outfall_location": "Near K.D. Singh Babu Stadium Embankment (26.8565N, 80.9425E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 2.4,
+      "design_capacity_m3s": 6.8,
+      "type": "Underground Storm Drain"
+    },
+    {
+      "id": "NALA-12",
+      "name": "Mohan Meakin Nala",
+      "bank": "Trans-Gomti",
+      "catchment": "Mohan Meakin Industrial Area, Daliganj Outer",
+      "outfall_location": "Trans-Gomti Bank (26.8710N, 80.9250E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 3.1,
+      "design_capacity_m3s": 8.5,
+      "type": "Industrial Storm Overflow Drain"
+    },
+    {
+      "id": "NALA-13",
+      "name": "Gaughat Nala",
+      "bank": "Cis-Gomti",
+      "catchment": "Gaughat Water Works, Campbell Road, Rustam Nagar",
+      "outfall_location": "Gaughat Intake Upstream (26.8770N, 80.8980E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 3.7,
+      "design_capacity_m3s": 9.0,
+      "type": "Masonry Channel"
+    },
+    {
+      "id": "NALA-14",
+      "name": "Butler Palace Nala",
+      "bank": "Cis-Gomti",
+      "catchment": "Butler Palace Lake, Baikunth Dham corridor",
+      "outfall_location": "Near Baikunth Dham (26.8550N, 80.9590E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 2.1,
+      "design_capacity_m3s": 6.0,
+      "type": "Open Masonry Nala"
+    },
+    {
+      "id": "NALA-15",
+      "name": "Parag Dairy Nala",
+      "bank": "Cis-Gomti",
+      "catchment": "Talkatora Industrial Estate, Parag Dairy Road",
+      "outfall_location": "Haidar Canal Main Trunk Interceptor (26.8290N, 80.9080E)",
+      "receiving_water": "Haidar Canal",
+      "approx_length_km": 4.8,
+      "design_capacity_m3s": 12.5,
+      "type": "Heavy Storm Collector Nala"
+    },
+    {
+      "id": "NALA-16",
+      "name": "CISPR Nala",
+      "bank": "Trans-Gomti",
+      "catchment": "Faridi Nagar, Picnic Spot Road",
+      "outfall_location": "Discharges into Kukrail Nala (26.9020N, 80.9650E)",
+      "receiving_water": "Kukrail Nala",
+      "approx_length_km": 5.4,
+      "design_capacity_m3s": 10.0,
+      "type": "Natural Earthen / Masonry Drain"
+    },
+    {
+      "id": "NALA-17",
+      "name": "Jankipuram Sector F Nala",
+      "bank": "Trans-Gomti",
+      "catchment": "Jankipuram Extension, Ring Road North",
+      "outfall_location": "Kukrail Upper Basin (26.9210N, 80.9450E)",
+      "receiving_water": "Kukrail Nala",
+      "approx_length_km": 6.2,
+      "design_capacity_m3s": 15.0,
+      "type": "RCC Box Trunk Drain"
+    },
+    {
+      "id": "NALA-18",
+      "name": "Faizullaganj Outfall Nala",
+      "bank": "Trans-Gomti",
+      "catchment": "Faizullaganj, Sitapur Road Highway corridor",
+      "outfall_location": "North Gomti Floodplain (26.9050N, 80.8950E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 5.8,
+      "design_capacity_m3s": 13.0,
+      "type": "Open Earth / Concrete Drain"
+    },
+    {
+      "id": "NALA-19",
+      "name": "Vikas Nagar Main Drain",
+      "bank": "Trans-Gomti",
+      "catchment": "Vikas Nagar Sectors 1-8, Tedhi Pulia corridor",
+      "outfall_location": "Kukrail River West Bank (26.8950N, 80.9520E)",
+      "receiving_water": "Kukrail Nala",
+      "approx_length_km": 4.9,
+      "design_capacity_m3s": 14.5,
+      "type": "Deep RCC Box Drain"
+    },
+    {
+      "id": "NALA-20",
+      "name": "Gomti Nagar 1090 Trunk Nala",
+      "bank": "Trans-Gomti",
+      "catchment": "Vipin Khand, 1090 Chauraha, Fun Republic Mall",
+      "outfall_location": "Gomti Barrage Downstream (26.8530N, 80.9750E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 3.5,
+      "design_capacity_m3s": 16.0,
+      "type": "Modern RCC Covered Trunk"
+    },
+    {
+      "id": "NALA-21",
+      "name": "Patel Nagar Gomti Nagar Drain",
+      "bank": "Trans-Gomti",
+      "catchment": "Patel Nagar, Vivek Khand, Gomti Nagar Station",
+      "outfall_location": "Gomti River Eastern Bank (26.8480N, 80.9950E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 4.2,
+      "design_capacity_m3s": 12.0,
+      "type": "RCC Box Culvert"
+    },
+    {
+      "id": "NALA-22",
+      "name": "Transport Nagar (T.P. Nagar) Drain",
+      "bank": "Cis-Gomti",
+      "catchment": "Transport Nagar, Kanpur Road, Shaheed Path junction",
+      "outfall_location": "Haidar Canal Southern Arm (26.7820N, 80.8920E)",
+      "receiving_water": "Haidar Canal",
+      "approx_length_km": 5.6,
+      "design_capacity_m3s": 18.0,
+      "type": "Heavy Trapezoidal Concrete Nala"
+    },
+    {
+      "id": "NALA-23",
+      "name": "Alambagh Sardarpura Nala",
+      "bank": "Cis-Gomti",
+      "catchment": "Alambagh Bus Stand, Chander Nagar, Singar Nagar",
+      "outfall_location": "Haidar Canal Mawaiya Siphon (26.8180N, 80.9120E)",
+      "receiving_water": "Haidar Canal",
+      "approx_length_km": 3.9,
+      "design_capacity_m3s": 11.5,
+      "type": "Brick Arch & Concrete Nala"
+    },
+    {
+      "id": "NALA-24",
+      "name": "Pipraghat Cantonment Nala",
+      "bank": "Cis-Gomti",
+      "catchment": "Lucknow Cantonment East, Dilkusha Kothi, Pipraghat",
+      "outfall_location": "Pipraghat Outfall (26.8390N, 80.9780E)",
+      "receiving_water": "Gomti River",
+      "approx_length_km": 4.0,
+      "design_capacity_m3s": 10.0,
+      "type": "Open Masonry Channel"
+    },
+    {
+      "id": "NALA-25",
+      "name": "Ashiyana Bangla Bazaar Drain",
+      "bank": "Cis-Gomti",
+      "catchment": "Ashiyana Sectors H, I, K, Bangla Bazaar, Power House Chauraha",
+      "outfall_location": "VIP Road Culvert to Southern Drain (26.7910N, 80.9150E)",
+      "receiving_water": "Southern Interceptor / Sai Basin",
+      "approx_length_km": 6.5,
+      "design_capacity_m3s": 15.5,
+      "type": "RCC Covered Trunk"
+    },
+    {
+      "id": "NALA-26",
+      "name": "Telibagh Raebareli Road Nala",
+      "bank": "Cis-Gomti",
+      "catchment": "Telibagh, SGPGI Corridor, Vrindavan Yojana",
+      "outfall_location": "Southern Irrigation Canal Discharge (26.7750N, 80.9410E)",
+      "receiving_water": "Southern Primary Canal",
+      "approx_length_km": 7.2,
+      "design_capacity_m3s": 17.0,
+      "type": "Open Trapezoidal Canal"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "description": "Historical and Design Storm Precipitation Profiles for Lucknow (IMD Records & CPHEEO Standards)",
+  "location": "Lucknow, Uttar Pradesh (IMD Amausi Station #42182)",
+  "time_step_minutes": 15,
+  "scenarios": [
+    {
+      "id": "IMD-2023-09-14-EXTREME",
+      "name": "14 Sept 2023 Historic Cloudburst",
+      "category": "Historical Extreme",
+      "total_depth_mm": 160.2,
+      "duration_hours": 3.0,
+      "peak_intensity_mmhr": 72.0,
+      "news_reference": "Times of India & Amar Ujala: 160 mm rain in 24 hrs brings Lucknow to standstill, schools closed, hospitals flooded",
+      "time_series_15min_mmhr": [
+        12.0, 24.0, 48.0, 68.0, 72.0, 64.0, 52.0, 38.0, 26.0, 18.0, 10.0, 6.0
+      ],
+      "description": "Extreme convective thunderstorm that caused knee-to-waist-deep inundation in Hazratganj, Charbagh, Gomti Nagar, and Aliganj."
+    },
+    {
+      "id": "IMD-2026-08-18-MONSOON",
+      "name": "18 Aug 2026 Monsoon Surge",
+      "category": "Historical Monsoon",
+      "total_depth_mm": 93.5,
+      "duration_hours": 2.5,
+      "peak_intensity_mmhr": 65.0,
+      "news_reference": "Times of India (Aug 18, 2026): Intermittent rain disrupts city, Nirala Nagar, Jankipuram, and Gomti Nagar inundated",
+      "time_series_15min_mmhr": [
+        15.0, 35.0, 55.0, 65.0, 50.0, 38.0, 25.0, 18.0, 12.0, 8.0
+      ],
+      "description": "Prolonged monsoon downpour overwhelming local branch drains and causing widespread traffic stranding across trans-Gomti."
+    },
+    {
+      "id": "IMD-2021-07-28-FLASH",
+      "name": "28 July 2021 High-Intensity Flash Flood",
+      "category": "Historical Flash Flood",
+      "total_depth_mm": 114.0,
+      "duration_hours": 2.0,
+      "peak_intensity_mmhr": 85.0,
+      "news_reference": "Hindustan Times: 114 mm torrential downpour submerges Charbagh Railway station and Old City under 2 feet of water",
+      "time_series_15min_mmhr": [
+        20.0, 58.0, 85.0, 76.0, 48.0, 30.0, 16.0, 8.0
+      ],
+      "description": "Sudden cloudburst-grade event with peak intensity reaching 85 mm/hr in the second 15-minute interval."
+    },
+    {
+      "id": "CPHEEO-DESIGN-15MM",
+      "name": "Standard Municipal Design Baseline",
+      "category": "Design Standard",
+      "total_depth_mm": 30.0,
+      "duration_hours": 2.0,
+      "peak_intensity_mmhr": 15.0,
+      "news_reference": "CPHEEO Manual on Storm Water Drainage Systems (Ministry of Housing and Urban Affairs, Govt of India)",
+      "time_series_15min_mmhr": [
+        15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0
+      ],
+      "description": "Standard 15 mm/hr steady design storm used for baseline pipe dimensioning across Indian municipal corporations."
+    },
+    {
+      "id": "CPHEEO-STRESS-30MM",
+      "name": "Moderate Monsoon Shower (2x Design)",
+      "category": "Stress Test",
+      "total_depth_mm": 60.0,
+      "duration_hours": 2.0,
+      "peak_intensity_mmhr": 30.0,
+      "news_reference": "Moderate monsoon rain event testing conveyance limits of branch drains",
+      "time_series_15min_mmhr": [
+        15.0, 25.0, 30.0, 30.0, 25.0, 20.0, 15.0, 10.0
+      ],
+      "description": "Typical monsoon shower exceeding branch pipe capacity and beginning surface ponding in low depressions."
+    },
+    {
+      "id": "CPHEEO-EXTREME-60MM",
+      "name": "Heavy Downpour (4x Design)",
+      "category": "Stress Test",
+      "total_depth_mm": 120.0,
+      "duration_hours": 2.0,
+      "peak_intensity_mmhr": 60.0,
+      "news_reference": "Heavy storm triggering emergency alert level",
+      "time_series_15min_mmhr": [
+        25.0, 45.0, 60.0, 60.0, 50.0, 35.0, 20.0, 10.0
+      ],
+      "description": "Heavy severe rain triggering full trunk capacity surcharge and street waterlogging across low-lying roads."
+    },
+    {
+      "id": "CPHEEO-CLOUDBURST-100MM",
+      "name": "Extreme Cloudburst (6.7x Design)",
+      "category": "Extreme Event",
+      "total_depth_mm": 150.0,
+      "duration_hours": 1.5,
+      "peak_intensity_mmhr": 100.0,
+      "news_reference": "Cloudburst disaster simulation",
+      "time_series_15min_mmhr": [
+        40.0, 80.0, 100.0, 85.0, 50.0, 20.0
+      ],
+      "description": "Disaster-level cloudburst event overwhelming all municipal drainage infrastructure and causing major road blockages."
+    }
+  ]
+}

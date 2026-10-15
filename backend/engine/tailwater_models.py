@@ -29,7 +29,9 @@ class PrimaryNala:
 class NalaTailwaterEngine:
     """Simulates tailwater backwater stage at outfall discharge points."""
 
-    DEFAULT_NALAS_PATH = os.path.join("Drainage", "data", "lucknow_primary_nalas.json")
+    DEFAULT_NALAS_PATH = os.path.join(
+        os.path.dirname(__file__), "..", "data", "catalogs", "lucknow_primary_nalas.json"
+    )
     UTM_CRS = "EPSG:32644"
 
     def __init__(self, nalas_json_path: Optional[str] = None):
@@ -41,7 +43,7 @@ class NalaTailwaterEngine:
     def load_nalas(self, json_path: str) -> None:
         """Loads primary nala definitions from JSON catalog."""
         if not os.path.exists(json_path):
-            alt_path = os.path.join(os.path.dirname(__file__), "..", json_path)
+            alt_path = os.path.join("backend", "data", "catalogs", "lucknow_primary_nalas.json")
             if os.path.exists(alt_path):
                 json_path = alt_path
             else:

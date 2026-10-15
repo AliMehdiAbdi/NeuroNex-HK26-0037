@@ -1,0 +1,76 @@
+{
+ "Charbagh Railway Station, Lucknow|landmark": {
+  "lon": 80.9231133,
+  "lat": 26.8324023,
+  "osm_name": "Charbagh Railway Station, Kanpur-Lucknow Road, Charbagh, Lucknow, Uttar Pradesh, 226004, India",
+  "osm_type": "station",
+  "demoted": false
+ },
+ "Jankipuram, Lucknow|area": {
+  "lon": 80.9396394,
+  "lat": 26.9326839,
+  "osm_name": "Jankipuram, Bakshi Ka Talab, Lucknow, Uttar Pradesh, 226026, India",
+  "osm_type": "suburb",
+  "demoted": false
+ },
+ "Faizullaganj, Lucknow|area": null,
+ "Gomti Nagar, Lucknow|area": {
+  "lon": 80.9988505,
+  "lat": 26.8528761,
+  "osm_name": "Gomti Nagar, Lucknow, Uttar Pradesh, 226010, India",
+  "osm_type": "suburb",
+  "demoted": true
+ },
+ "Aliganj, Lucknow|area": {
+  "lon": 80.9479913,
+  "lat": 26.90515,
+  "osm_name": "Aliganj, Lucknow, Uttar Pradesh, 226024, India",
+  "osm_type": "suburb",
+  "demoted": false
+ },
+ "Nirala Nagar, Lucknow|area": {
+  "lon": 80.9357084,
+  "lat": 26.8790069,
+  "osm_name": "Nirala Nagar, Triveni Nagar, Lucknow, Uttar Pradesh, India",
+  "osm_type": "residential",
+  "demoted": false
+ },
+ "Thakurganj, Lucknow|area": {
+  "lon": 80.8905146,
+  "lat": 26.8793864,
+  "osm_name": "Thakurganj, Lucknow, Uttar Pradesh, India",
+  "osm_type": "suburb",
+  "demoted": false
+ },
+ "Vikas Nagar, Lucknow|area": {
+  "lon": 80.9640683,
+  "lat": 26.8942443,
+  "osm_name": "Vikas Nagar, Lucknow, Uttar Pradesh, 226022, India",
+  "osm_type": "suburb",
+  "demoted": false
+ },
+ "Rumi Darwaza, Lucknow|landmark": {
+  "lon": 80.9122124,
+  "lat": 26.8712234,
+  "osm_name": "Rumi Gate, Azadari Road, Chowk, Lucknow, Uttar Pradesh, 226001, India",
+  "osm_type": "city_gate",
+  "demoted": false
+ },
+ "Hussainganj, Lucknow|area": null,
+ "Hazratganj, Lucknow|area": {
+  "lon": 80.9447594,
+  "lat": 26.854809,
+  "osm_name": "Hazratganj, Lucknow, Uttar Pradesh, 226027, India",
+  "osm_type": "suburb",
+  "demoted": true
+ },
+ "Ashiyana, Lucknow|area": null,
+ "Jankipuram Vistar, Lucknow|area": null,
+ "Kalyanpur, Lucknow|area": {
+  "lon": 80.9737457,
+  "lat": 26.9032068,
+  "osm_name": "Kalyanpur, Lucknow, Uttar Pradesh, 226022, India",
+  "osm_type": "suburb",
+  "demoted": false
+ }
+}

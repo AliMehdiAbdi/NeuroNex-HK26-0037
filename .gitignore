@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.env.local
+.env.*.local
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+node_modules/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# GIS raw artifacts & generated datasets (kept locally, not tracked in git)
+*.graphml
+*.geojson
+*.tif
+*.tiff
+*.png
+.osm_cache/
+backend/data/spatial/validation/
+backend/data/spatial/pilot/drainage_graph.json

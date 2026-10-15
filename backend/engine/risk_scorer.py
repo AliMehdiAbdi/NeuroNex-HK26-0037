@@ -28,7 +28,9 @@ class RiskBreakdown:
 class FloodRiskScorer:
     """Calculates composite Flood Risk Scores (FRS) for nodes and road corridors."""
 
-    DEFAULT_SITES_PATH = os.path.join("Drainage", "processed", "flood_sites.json")
+    DEFAULT_SITES_PATH = os.path.join(
+        os.path.dirname(__file__), "..", "data", "spatial", "pilot", "flood_sites.json"
+    )
     UTM_CRS = "EPSG:32644"
 
     DEFAULT_WEIGHTS = {
@@ -53,7 +55,7 @@ class FloodRiskScorer:
     def _load_flood_sites(self, path: str) -> None:
         """Loads historical flood locations for proximity scoring."""
         if not os.path.exists(path):
-            alt_path = os.path.join(os.path.dirname(__file__), "..", path)
+            alt_path = os.path.join("backend", "data", "spatial", "pilot", "flood_sites.json")
             if os.path.exists(alt_path):
                 path = alt_path
             else:

@@ -1,0 +1,107 @@
+{
+  "nodes": 1921,
+  "edges": 1894,
+  "node_types": {
+    "manhole": 1709,
+    "depression": 185,
+    "outfall": 27
+  },
+  "conduit_types": {
+    "trunk": 337,
+    "pipe": 1482,
+    "nala": 75
+  },
+  "pipe_diameters_mm": {
+    "1800": 69,
+    "1500": 72,
+    "1200": 128,
+    "1050": 68,
+    "900": 192,
+    "750": 147,
+    "600": 341,
+    "450": 802
+  },
+  "total_conduit_length_km": 322.3,
+  "capacity_m3s": {
+    "total": 1398.09,
+    "mean": 0.7382,
+    "min": 0.0828,
+    "max": 10.9109
+  },
+  "terrain_elevation_m": {
+    "min": 103.5,
+    "max": 130.534
+  },
+  "serviced_area_km2": 43.398,
+  "bottleneck_junctions": 0,
+  "local_minima": 194,
+  "design_storm": {
+    "intensity_mm_hr": 15.0,
+    "runoff_coeff": 0.7,
+    "siltation_factor": 0.75,
+    "median_node_stress": 0.68,
+    "nodes_over_capacity": 429
+  },
+  "validation": {
+    "is_dag": {
+      "pass": true,
+      "detail": ""
+    },
+    "topo_order_complete": {
+      "pass": true,
+      "detail": ""
+    },
+    "single_outflow_per_manhole": {
+      "pass": true,
+      "detail": "0 nodes split flow"
+    },
+    "no_undirected_cycles": {
+      "pass": true,
+      "detail": "0 cycles"
+    },
+    "one_tree_per_outfall": {
+      "pass": true,
+      "detail": "27 components, 27 roots"
+    },
+    "edge_count_matches_forest": {
+      "pass": true,
+      "detail": "1894 edges, 1921-27 expected"
+    },
+    "upstream_area_mass_balance": {
+      "pass": true,
+      "detail": "43.398 vs 43.398 km2"
+    },
+    "no_uphill_pipes": {
+      "pass": true,
+      "detail": "0 uphill"
+    },
+    "all_pipes_meet_min_slope": {
+      "pass": true,
+      "detail": "0 below 0.0015"
+    },
+    "all_pipes_have_capacity": {
+      "pass": true,
+      "detail": "0 zero-capacity"
+    },
+    "velocities_in_design_band": {
+      "pass": true,
+      "detail": "0.69-2.47 m/s"
+    },
+    "trunk_capacity_non_decreasing": {
+      "pass": true,
+      "detail": "0 junctions narrow downstream"
+    },
+    "conduits_carry_design_storm": {
+      "pass": true,
+      "detail": "0 under-sized at 15.0 mm/hr"
+    },
+    "every_node_can_discharge": {
+      "pass": true,
+      "detail": "0 with zero outflow"
+    },
+    "all_nodes_reach_an_outfall": {
+      "pass": true,
+      "detail": "0 stranded"
+    }
+  }
+}

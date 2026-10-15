@@ -33,7 +33,9 @@ class StormScenario:
 class RainfallModel:
     """Manages storm scenarios and produces interpolated rainfall rates."""
 
-    DEFAULT_STORMS_PATH = os.path.join("Drainage", "data", "historical_storms.json")
+    DEFAULT_STORMS_PATH = os.path.join(
+        os.path.dirname(__file__), "..", "data", "catalogs", "historical_storms.json"
+    )
 
     def __init__(self, storms_json_path: Optional[str] = None):
         path = storms_json_path or self.DEFAULT_STORMS_PATH
@@ -43,7 +45,7 @@ class RainfallModel:
     def load_scenarios(self, json_path: str) -> None:
         """Loads storm scenarios from catalog JSON."""
         if not os.path.exists(json_path):
-            alt_path = os.path.join(os.path.dirname(__file__), "..", json_path)
+            alt_path = os.path.join("backend", "data", "catalogs", "historical_storms.json")
             if os.path.exists(alt_path):
                 json_path = alt_path
             else:

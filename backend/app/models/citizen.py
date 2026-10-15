@@ -94,12 +94,22 @@ class Notification(Base):
 
     title = Column(String(255), nullable=False)
     message = Column(Text, nullable=False)
+    event_category = Column(String(50), default="PREDICTION", nullable=False)
     hazard_type = Column(String(50), default="FLOOD_RISK", nullable=False)
     severity = Column(String(20), default="MODERATE", nullable=False)
     expected_depth_cm = Column(Float, default=0.0, nullable=False)
+    predicted_event_time = Column(DateTime, nullable=True)
+    rainfall_intensity_mmhr = Column(Float, default=0.0, nullable=False)
+    timestep_minutes = Column(Float, nullable=True)
+    horizon_label = Column(String(50), nullable=True)
+    drainage_stress_ratio = Column(Float, default=0.0, nullable=False)
+    location_name = Column(String(100), nullable=True)
+    source = Column(String(50), default="CITIZEN_ENGINE", nullable=False)
+    deduplication_key = Column(String(64), nullable=True, index=True)
     alert_sent_time = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
     status = Column(String(20), default="SENT", nullable=False)
     is_read = Column(Boolean, default=False, nullable=False)
 
     user = relationship("User", backref="notifications")
     saved_location = relationship("SavedLocation", back_populates="notifications")
+

@@ -1,0 +1,169 @@
+{
+  "description": "Verified Lucknow Critical Infrastructure Inventory (Hospitals, Transit, Underpasses, Emergency, Education)",
+  "city": "Lucknow",
+  "state": "Uttar Pradesh",
+  "items": [
+    {
+      "id": 1,
+      "name": "King George's Medical University (KGMU) & Trauma Centre",
+      "category": "HOSPITAL",
+      "latitude": 26.8680,
+      "longitude": 80.9158,
+      "zone": "pilot",
+      "baseline_elevation_m": 118.0
+    },
+    {
+      "id": 2,
+      "name": "Dr. Ram Manohar Lohia Institute of Medical Sciences",
+      "category": "HOSPITAL",
+      "latitude": 26.8610,
+      "longitude": 80.9990,
+      "zone": "validation",
+      "baseline_elevation_m": 113.0
+    },
+    {
+      "id": 3,
+      "name": "Shyama Prasad Mukherjee (Civil) Hospital Hazratganj",
+      "category": "HOSPITAL",
+      "latitude": 26.8480,
+      "longitude": 80.9420,
+      "zone": "pilot",
+      "baseline_elevation_m": 115.0
+    },
+    {
+      "id": 4,
+      "name": "Balrampur District Hospital",
+      "category": "HOSPITAL",
+      "latitude": 26.8640,
+      "longitude": 80.9260,
+      "zone": "pilot",
+      "baseline_elevation_m": 116.0
+    },
+    {
+      "id": 5,
+      "name": "Sanjay Gandhi Postgraduate Institute (SGPGIMS)",
+      "category": "HOSPITAL",
+      "latitude": 26.7450,
+      "longitude": 80.9410,
+      "zone": "pilot",
+      "baseline_elevation_m": 119.0
+    },
+    {
+      "id": 6,
+      "name": "Charbagh Central Railway Station",
+      "category": "RAILWAY",
+      "latitude": 26.8324,
+      "longitude": 80.9231,
+      "zone": "pilot",
+      "baseline_elevation_m": 114.0
+    },
+    {
+      "id": 7,
+      "name": "Lucknow Junction NER Station",
+      "category": "RAILWAY",
+      "latitude": 26.8315,
+      "longitude": 80.9220,
+      "zone": "pilot",
+      "baseline_elevation_m": 114.0
+    },
+    {
+      "id": 8,
+      "name": "Mawaiya Railway Road Underpass (Chronic Sump)",
+      "category": "UNDERPASS",
+      "latitude": 26.8280,
+      "longitude": 80.9120,
+      "zone": "pilot",
+      "baseline_elevation_m": 111.0
+    },
+    {
+      "id": 9,
+      "name": "Polytechnic Chauraha Grade Underpass",
+      "category": "UNDERPASS",
+      "latitude": 26.8730,
+      "longitude": 80.9910,
+      "zone": "validation",
+      "baseline_elevation_m": 112.5
+    },
+    {
+      "id": 10,
+      "name": "Nishatganj Bridge Underpass Corridor",
+      "category": "UNDERPASS",
+      "latitude": 26.8670,
+      "longitude": 80.9520,
+      "zone": "validation",
+      "baseline_elevation_m": 112.0
+    },
+    {
+      "id": 11,
+      "name": "Hazratganj Metro Station",
+      "category": "METRO",
+      "latitude": 26.8528,
+      "longitude": 80.9455,
+      "zone": "pilot",
+      "baseline_elevation_m": 116.0
+    },
+    {
+      "id": 12,
+      "name": "Charbagh Metro Station Interchange",
+      "category": "METRO",
+      "latitude": 26.8335,
+      "longitude": 80.9240,
+      "zone": "pilot",
+      "baseline_elevation_m": 114.5
+    },
+    {
+      "id": 13,
+      "name": "KD Singh Babu Stadium Metro Station",
+      "category": "METRO",
+      "latitude": 26.8580,
+      "longitude": 80.9380,
+      "zone": "pilot",
+      "baseline_elevation_m": 115.0
+    },
+    {
+      "id": 14,
+      "name": "IT Chauraha Metro Station (Trans-Gomti)",
+      "category": "METRO",
+      "latitude": 26.8720,
+      "longitude": 80.9380,
+      "zone": "validation",
+      "baseline_elevation_m": 114.0
+    },
+    {
+      "id": 15,
+      "name": "Alambagh Central Bus Terminal (ISBT)",
+      "category": "EMERGENCY",
+      "latitude": 26.8009,
+      "longitude": 80.9132,
+      "zone": "pilot",
+      "baseline_elevation_m": 117.0
+    },
+    {
+      "id": 16,
+      "name": "University of Lucknow Campus",
+      "category": "SCHOOL",
+      "latitude": 26.8650,
+      "longitude": 80.9360,
+      "zone": "validation",
+      "baseline_elevation_m": 117.0
+    },
+    {
+      "id": 17,
+      "name": "La Martiniere College Estate",
+      "category": "SCHOOL",
+      "latitude": 26.8400,
+      "longitude": 80.9630,
+      "zone": "pilot",
+      "baseline_elevation_m": 113.0
+    },
+    {
+      "id": 18,
+      "name": "Vidhan Sabha Uttar Pradesh Secretariat",
+      "category": "EMERGENCY",
+      "latitude": 26.8432,
+      "longitude": 80.9416,
+      "zone": "pilot",
+      "baseline_elevation_m": 116.5
+    }
+  ]
+}

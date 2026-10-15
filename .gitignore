@@ -39,3 +39,4 @@ Thumbs.db
 .osm_cache/
 backend/data/spatial/validation/
 backend/data/spatial/pilot/drainage_graph.json
+backend/data/outputs/

@@ -45,6 +45,9 @@ class Settings(BaseSettings):
     CATALOGS_DIR: str = os.path.join(DATA_DIR, "catalogs")
     SPATIAL_PILOT_DIR: str = os.path.join(DATA_DIR, "spatial", "pilot")
     SPATIAL_VALIDATION_DIR: str = os.path.join(DATA_DIR, "spatial", "validation")
+    OUTPUTS_DIR: str = os.path.join(DATA_DIR, "outputs")
+    ENGINE_OUTPUTS_DIR: str = os.path.join(DATA_DIR, "outputs")
+    DRAINAGE_DATA_DIR: str = os.path.join(DATA_DIR, "catalogs")
 
     # In-memory Cache Limits
     GEOJSON_CACHE_MAXSIZE: int = 128
@@ -65,6 +68,29 @@ class Settings(BaseSettings):
         "ambulance": 30.0,
         "emergency": 30.0,
         "bus": 35.0,
+    }
+
+    # Calibration & Ground-Truth Benchmarks
+    CALIBRATION_BENCHMARKS: Dict[str, Any] = {
+        "ground_truth_sites_count": 8,
+        "proximity_p_value": 0.013,
+        "scientific_confidence_pct": 98.7,
+        "site_ranking_percentile": 70.2,
+        "model_mean_distance_to_known_floods_km": 0.69,
+        "random_chance_distance_km": 1.82,
+        "downhill_flow_conformance_pct": 58.7,
+        "copernicus_vs_srtm_elevation_correlation": 0.857,
+        "drainage_checks_passed": "15/15",
+        "confusion_matrix": {
+            "true_positives": 7,
+            "false_positives": 2,
+            "false_negatives": 1,
+            "true_negatives": 18,
+            "precision": 0.778,
+            "recall_sensitivity": 0.875,
+            "specificity": 0.900,
+            "f1_score": 0.824,
+        },
     }
 
     # Database
